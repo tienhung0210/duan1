@@ -1,0 +1,389 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.boxcenter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06) ; 
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.topnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.topnav .logo{
+    width: 220px;
+}
+.searchbox input[type="text"]{
+    width: 350px;
+    padding: 5px 8px;
+    background-color: white;
+    border: 1px solid #E3E6F3;
+    border-radius: 5px;
+}
+.searchbox button[type="submit"]{
+    padding: 5px 8px;
+    border: 1px solid #E3E6F3;
+    background-color: #E3E6F3;
+}
+.searchbox button[type="submit"]:hover{
+    background-color: #088178;
+    color: white;
+}
+.dndk a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.dndk a:hover{
+    color: #088178;
+}
+
+/* Menu */
+#navbar{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 10px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.03 ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+#navbar li a.active ::after,
+#navbar li a:hover ::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:#088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* Home */
+#feature{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-p1{
+    padding: 30px 0;
+}
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 14px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);  
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+#feature .fe-box :nth-child(2) h6{
+    background-color: #cdebbc;
+}
+#feature .fe-box :nth-child(3) h6{
+    background-color: #d1e8f2;
+}
+#feature .fe-box :nth-child(4) h6{
+    background-color: #cdd4f8;
+}
+#feature .fe-box :nth-child(5) h6{
+    background-color: #fff2e5;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+} 
+#product1 .pro{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 23px;
+    border-radius: 25px;
+}
+.boxsp{
+    border: 1px solid gainsboro;
+    padding: 15px;
+    border-radius: 10px;
+}
+.boxsp img{
+    width: 100%;
+    height: 260px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.boxsp p{
+    color: black;
+    font-weight: bold;
+}
+.boxsp .name{
+    text-decoration: none;
+    color: #000;
+}
+.boxsp .name:hover{
+    color: #088178;
+}
+form input[type="submit"]{
+    border: 1px solid #E3E6F3;
+    background-color: #E3E6F3;
+    padding: 5px 8px;
+}
+form input[type="submit"]:hover{
+    background-color: #088178;
+    color: white;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+
+/* Admin */
+form input[type="reset"],
+form input[type="button"]{
+    border: 1px solid #E3E6F3;
+    background-color: #E3E6F3;
+    padding: 5px 8px;
+}
+form input[type="reset"]:hover,
+form input[type="button"]:hover{
+    background-color: #ccc;
+}
+.formdslh table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.formdslh table th{
+    padding: 20px;
+    background-color: #E3E6F3;
+}
+.formdslh table td{
+    padding: 10px 20px;
+    border: 1px solid #E3E6F3;
+}
+
+/* Phân trang */
+#pagination{
+    text-align: center;
+}
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+/* Footer */
+footer{
+    padding: 30px 0;
+    border-top: 3px solid #E3E6F3;
+    height: 180px;
+    clear: both;
+}
+.con{
+    width: 100%;
+    margin: auto;
+}
+.roww{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+}
+.footer-col .logo{
+    width: 25%;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    color: #FFA52F;
+    position: relative;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    transform: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #088178;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px 0;
+}
+.footer-col .social-links a:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: linear;
+}
+.copy p{
+    text-align: center;
+}
+
+/* Chi tiết sản phẩm */
+.boxcontent{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.spct img{
+    width: 400px;
+    height: 400px;
+}
+.ctsptong{
+    display: flex;
+    justify-content: space-between;
+}
+.single-pro-details h6{
+    color: palevioletred;
+}
+.single-pro-details h2{
+    color: red;
+}
+.single-pro-details{
+    width: 80%;
+    margin-right: 50px;
+}
+.color a img{
+    border-radius: 50px;
+}
+.color a{
+    padding-right: 5px;
+}
+.color {
+    padding-bottom: 10px;
+}
+.title{
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+input[type="submit"]{
+    border: 1px solid #E3E6F3;
+    background-color: #E3E6F3;
+    padding: 5px 8px;
+}
+input[type="submit"]:hover{
+    background-color: #088178;
+    color: white;
+}
+
+/* Liên hệ */
+.lienhe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.bando{
+    width: 95%;
+    margin-left: 30px;
+}
+.form-control{
+    width: 300px;
+}
+
+/* Tài khoản */
+.dangnhap{
+    margin-left: 580px;
+}
+.dangky{
+    margin-left: 590px;
+}
+.updatetk{
+    margin-left: 570px;
+}
+.formtaikhoan{
+    line-height: 150%;
+    margin-left: 500px;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"]{
+    width: 300px;
+    border: 1px solid #E3E6F3;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.formtaikhoan li a{
+    color: #000;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: #088178;
+    text-decoration: underline;
+}

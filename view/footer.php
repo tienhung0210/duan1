@@ -12,9 +12,6 @@
             <section class="footer-col">
                 <h4>Danh mục</h4>
                 <ul>
-                    <li><a href="index.php?act=sphot">Sản phẩm hot</a></li>
-                    <li><a href="index.php?act=nam">Nam</a></li>
-                    <li><a href="index.php?act=nu">Nữ</a></li>
                 </ul>
             </section>
             <section class="footer-col">

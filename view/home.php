@@ -17,7 +17,7 @@
       <h6>Mua bán thuận tiện</h6>
     </div>
   </section>
-  <section id="product1" class="section-p1">
+  <!-- <section id="product1" class="section-p1">
     <h2>SẢN PHẨM HOT</h2>
     <p style="color: gray">Với những mẫu mã luôn được cập nhật liên tục</p>
     <div class="pro-container">
@@ -77,4 +77,4 @@
         ?>
       </div>
     </div>
-  </section>
+  </section> -->

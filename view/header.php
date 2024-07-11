@@ -48,9 +48,9 @@
       </div>
       <div>
         <ul id="navbar">
-          <li><a href="index.php?act=sphot">Sản phẩm hot</a></li>
-          <li><a href="index.php?act=nu">Nữ</a></li>
-          <li><a href="index.php?act=lienhe">Liên hệ</a></li>
-          <li><a href="index.php?act=tintuc">Tin tức</a></li>
+          <li><a href="#">Sản phẩm hot</a></li>
+          <li><a href="#">Danh mục</a></li>
+          <li><a href="#">Liên hệ</a></li>
+          <li><a href="#">Tin tức</a></li>
         </ul>
       </div>

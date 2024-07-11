@@ -51,28 +51,28 @@
                 $tendm = load_ten_dm_nu($iddm);
                 include "view/nu.php";
                 break;
-    //         case 'sanphamct':
-    //             if(isset($_GET['idsp'])&&($_GET['idsp']>0)){
-    //                 $id = $_GET['idsp'];
-    //                 $onesp = loadone_sanpham($id);
-    //                 extract($onesp);
-    //                 $sp_cung_loai = load_sanpham_cungloai($id,$iddm);
-    //                 include "view/spct.php";
-    //             }else{
-    //                 include "view/home.php";
-    //             }
-    //             break;
-    //         case 'spctnu':
-    //             if(isset($_GET['idsp'])&&($_GET['idsp']>0)){
-    //                 $id = $_GET['idsp'];
-    //                 $onespnu = loadone_sanpham_nu($id);
-    //                 extract($onespnu);
-    //                 $sp_cung_loai_nu = load_sanpham_cungloai_nu($id,$iddm);
-    //                 include "view/spctnu.php";
-    //             }else{
-    //                 include "view/home.php";
-    //             }
-    //             break;
+            case 'sanphamct':
+                if(isset($_GET['idsp'])&&($_GET['idsp']>0)){
+                    $id = $_GET['idsp'];
+                    $onesp = loadone_sanpham($id);
+                    extract($onesp);
+                    $sp_cung_loai = load_sanpham_cungloai($id,$iddm);
+                    include "view/spct.php";
+                }else{
+                    include "view/home.php";
+                }
+                break;
+            case 'spctnu':
+                if(isset($_GET['idsp'])&&($_GET['idsp']>0)){
+                    $id = $_GET['idsp'];
+                    $onespnu = loadone_sanpham_nu($id);
+                    extract($onespnu);
+                    $sp_cung_loai_nu = load_sanpham_cungloai_nu($id,$iddm);
+                    include "view/spctnu.php";
+                }else{
+                    include "view/home.php";
+                }
+                break;
             case 'sphot':
                 include "view/sphot.php";
                 break;

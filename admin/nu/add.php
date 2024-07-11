@@ -1,4 +1,4 @@
-<h2>THÊM MỚI SẢN PHẨM NỮ</h2>
+<h2>THÊM MỚI SẢN PHẨM</h2>
     <div class="formcontent">
         <form action="index.php?act=addspnu" method="post" enctype="multipart/form-data">
             <div class="mb10">

@@ -10,7 +10,7 @@
             ?>
         </div>
         <div class="single-pro-details">
-            <h6>Home / Shirts</h6>
+            <h6>Home / Chân váy</h6>
             <div class="title"><?=$name?></div>
             <h2><?=$price?> đ</h2>
             <div class="color">

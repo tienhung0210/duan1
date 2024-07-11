@@ -1,4 +1,4 @@
-<h2>DANH SÁCH SẢN PHẨM NỮ</h2>
+<h2>DANH SÁCH SẢN PHẨM</h2>
 <form action="index.php?act=listspnu" method="post">
     <input type="text" name="kyw">
     <select name="iddm">

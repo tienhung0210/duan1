@@ -9,7 +9,7 @@
         $hinh = "no photo";
     }
 ?>
-<h2>CẬP NHẬT SẢN PHẨM NỮ</h2>
+<h2>CẬP NHẬT SẢN PHẨM</h2>
 <div class="formcontent">
     <form action="index.php?act=updatespnu" method="post" enctype="multipart/form-data">
         <div class="mb10">

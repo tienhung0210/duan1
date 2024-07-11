@@ -13,16 +13,16 @@
   <body>
     <div class="boxcenter">
       <section id="header">
-        <a href="index.php"><img src="../img/images.png" alt="" width="70%"></a>
+        <a href="index.php"><img src="../img/logo.png" alt="" width="20%"></a>
         <div>
           <ul id="navbar">
             <li><a href="index.php?act=adddm">Danh mục</a></li>
             <li><a href="index.php?act=addsphot">Sản phẩm hot</a></li>
-            <li><a href="index.php?act=addspnu">Nữ</a></li>
+            <li><a href="index.php?act=addspnu">Sản phẩm</a></li>
             <li><a href="index.php?act=dskh">Khách hàng</a></li>
-            <li><a href="index.php?act=dsbl">Bình luận</a></li>
+            <!-- <li><a href="index.php?act=dsbl">Bình luận</a></li>
             <li><a href="index.php?act=thongke">Thống kê</a></li>
-            <li><a href="index.php?act=listbill">DSĐH</a></li>
+            <li><a href="index.php?act=listbill">DSĐH</a></li> -->
           </ul>
         </div>
       </section>

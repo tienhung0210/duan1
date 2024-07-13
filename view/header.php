@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VivaSport</title>
+    <title>Viva Sport</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -49,7 +49,7 @@
       <div>
         <ul id="navbar">
           <li><a href="index.php?act=sphot">Sản phẩm hot</a></li>
-          <li><a href="index.php?act=nu">Sản phẩm</a></li>
+          <li><a href="#">Sản phẩm</a></li>
           <li><a href="index.php?act=lienhe">Liên hệ</a></li>
           <li><a href="#">Tin tức</a></li>
         </ul>

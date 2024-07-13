@@ -10,7 +10,7 @@
             ?>
         </div>
         <div class="single-pro-details">
-            <h6>Home / Chân váy</h6>
+            <h6></h6>
             <div class="title"><?=$name?></div>
             <h2><?=$price?> đ</h2>
             <div class="color">
@@ -25,7 +25,6 @@
                 <option>M</option>
                 <option>L</option>
                 <option>XL</option>
-                <option>XXL</option>
             </select>
             <input type="number" value="1">
             <input type="submit" name="addtocart" value="Thêm vào giỏ hàng">

@@ -18,11 +18,9 @@
           <ul id="navbar">
             <li><a href="index.php?act=adddm">Danh mục</a></li>
             <li><a href="index.php?act=addsphot">Sản phẩm hot</a></li>
-            <li><a href="index.php?act=addspnu">Sản phẩm</a></li>
-            <li><a href="index.php?act=dskh">Khách hàng</a></li>
-            <!-- <li><a href="index.php?act=dsbl">Bình luận</a></li>
-            <li><a href="index.php?act=thongke">Thống kê</a></li>
-            <li><a href="index.php?act=listbill">DSĐH</a></li> -->
+            <!-- <li><a href="index.php?act=addspnu">Sản phẩm</a></li> -->
+            <li><a href="index.php?act=dskh">Tài khoản</a></li>
+            <li><a href="index.php?act=dsbl">Bình luận</a></li>
           </ul>
         </div>
       </section>

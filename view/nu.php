@@ -1,6 +1,6 @@
 <div class="boxcenter">
   <section id="product1" class="section-p1">
-    <h2>THỜI TRANG NỮ</h2>
+    <h2>DANH SÁCH SẢN PHẨM</h2>
     <div class="pro-container">
       <div class="pro">
         <?php

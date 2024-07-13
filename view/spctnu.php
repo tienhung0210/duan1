@@ -25,7 +25,6 @@
                 <option>M</option>
                 <option>L</option>
                 <option>XL</option>
-                <option>XXL</option>
             </select>
             <input type="number" value="1">
             <input type="submit" name="themvaogiohang" value="Thêm vào giỏ hàng">

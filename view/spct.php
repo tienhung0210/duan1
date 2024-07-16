@@ -12,7 +12,8 @@
         <div class="single-pro-details">
             <h6></h6>
             <div class="title"><?=$name?></div>
-            <h2><?=$price?> đ</h2>
+            <del><h3>Giá: <?=$price?>đ</h3></del>
+            <h2>Giá ưu đãi: <?=$priceud?>đ</h2>
             <div class="color">
                 <a href=""><img src="./img/red.jpg" alt="" width="40px" height="40px" ></a>
                 <a href=""><img src="./img/blue.jpg" alt="" width="40px" height="40px"></a>

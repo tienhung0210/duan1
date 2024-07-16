@@ -135,7 +135,9 @@
                 session_unset();
                 header('Location: index.php');
                 break;
-            
+            case 'gioithieu':
+                include "view/gioithieu.php";
+                break;
             case 'lienhe':
                 include "view/lienhe.php";
                 break;

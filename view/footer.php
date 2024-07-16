@@ -12,6 +12,10 @@
             <section class="footer-col">
                 <h4>Danh mục</h4>
                 <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Tin tức</a></li>
                 </ul>
             </section>
             <section class="footer-col">
@@ -32,7 +36,7 @@
             </section>
         </section>
     </section>
-    <div class="copy"><p>Copyright 2024 © VivaSport</p></div>
+    <div class="copy"><p>Copyright 2024 © Viva Sport</p></div>
 </footer>
 </body>
 </html>

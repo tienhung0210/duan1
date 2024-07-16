@@ -163,6 +163,11 @@
 .boxsp p{
     color: black;
     font-weight: bold;
+    font-size: 14px;
+    color: grey;
+}
+.boxsp span{
+    color: red;
 }
 .boxsp .name{
     text-decoration: none;
@@ -306,6 +311,9 @@ ul{
 }
 .single-pro-details h6{
     color: palevioletred;
+}
+.single-pro-details h3{
+    color: grey;
 }
 .single-pro-details h2{
     color: red;
